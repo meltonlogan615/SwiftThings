@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22815AE54A7F4DF5DCEAA44B /* Pods_Kiley_Stinks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B540DB0EF8A6141FA702EBAC /* Pods_Kiley_Stinks.framework */; };
+		53384C0F25EBFE0B009AA6A0 /* StinkListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53384C0E25EBFE0B009AA6A0 /* StinkListViewController.swift */; };
+		53384C1325EBFE6B009AA6A0 /* StinkyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53384C1125EBFE6B009AA6A0 /* StinkyTableViewCell.swift */; };
+		53384C1425EBFE6B009AA6A0 /* StinkyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53384C1225EBFE6B009AA6A0 /* StinkyTableViewCell.xib */; };
+		53384C1A25EC17EA009AA6A0 /* StankModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53384C1925EC17E9009AA6A0 /* StankModel.swift */; };
+		53384C1E25EC1885009AA6A0 /* AddStinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53384C1D25EC1885009AA6A0 /* AddStinkViewController.swift */; };
+		53384C2325EC1A55009AA6A0 /* StinkDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53384C2225EC1A55009AA6A0 /* StinkDetailViewController.swift */; };
+		53AF7B7725EAAA06007F0E9C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AF7B7625EAAA06007F0E9C /* Constants.swift */; };
+		53C455F625E747F400F5D335 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C455F525E747F400F5D335 /* AppDelegate.swift */; };
+		53C455F825E747F400F5D335 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C455F725E747F400F5D335 /* SceneDelegate.swift */; };
+		53C455FA25E747F400F5D335 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C455F925E747F400F5D335 /* WelcomeViewController.swift */; };
+		53C455FD25E747F400F5D335 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53C455FB25E747F400F5D335 /* Main.storyboard */; };
+		53C455FF25E747FC00F5D335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53C455FE25E747FC00F5D335 /* Assets.xcassets */; };
+		53C4560225E747FC00F5D335 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53C4560025E747FC00F5D335 /* LaunchScreen.storyboard */; };
+		53C4563A25E7520E00F5D335 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C4563925E7520E00F5D335 /* RegisterViewController.swift */; };
+		53C4563D25E7524B00F5D335 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C4563C25E7524B00F5D335 /* LoginViewController.swift */; };
+		53C4569B25E7F97D00F5D335 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53C4569A25E7F97D00F5D335 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2AB6DE5C8F1CE09EE14CDCAA /* Pods-Kiley Stinks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kiley Stinks.debug.xcconfig"; path = "Target Support Files/Pods-Kiley Stinks/Pods-Kiley Stinks.debug.xcconfig"; sourceTree = "<group>"; };
+		53384C0E25EBFE0B009AA6A0 /* StinkListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StinkListViewController.swift; sourceTree = "<group>"; };
+		53384C1125EBFE6B009AA6A0 /* StinkyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StinkyTableViewCell.swift; sourceTree = "<group>"; };
+		53384C1225EBFE6B009AA6A0 /* StinkyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StinkyTableViewCell.xib; sourceTree = "<group>"; };
+		53384C1925EC17E9009AA6A0 /* StankModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StankModel.swift; sourceTree = "<group>"; };
+		53384C1D25EC1885009AA6A0 /* AddStinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStinkViewController.swift; sourceTree = "<group>"; };
+		53384C2225EC1A55009AA6A0 /* StinkDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StinkDetailViewController.swift; sourceTree = "<group>"; };
+		53AF7B7625EAAA06007F0E9C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		53C455F225E747F400F5D335 /* Kiley Stinks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kiley Stinks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53C455F525E747F400F5D335 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53C455F725E747F400F5D335 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		53C455F925E747F400F5D335 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		53C455FC25E747F400F5D335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53C455FE25E747FC00F5D335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53C4560125E747FC00F5D335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53C4560325E747FC00F5D335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53C4563925E7520E00F5D335 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		53C4563C25E7524B00F5D335 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		53C4569A25E7F97D00F5D335 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B540DB0EF8A6141FA702EBAC /* Pods_Kiley_Stinks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kiley_Stinks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2B645667082F825444145D8 /* Pods-Kiley Stinks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kiley Stinks.release.xcconfig"; path = "Target Support Files/Pods-Kiley Stinks/Pods-Kiley Stinks.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53C455EF25E747F400F5D335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22815AE54A7F4DF5DCEAA44B /* Pods_Kiley_Stinks.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53C455E925E747F400F5D335 = {
+			isa = PBXGroup;
+			children = (
+				53C455F425E747F400F5D335 /* Kiley Stinks */,
+				53C455F325E747F400F5D335 /* Products */,
+				BD3ECFFE56AC0689AC064090 /* Pods */,
+				78156CB0318D4D83F76718DD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		53C455F325E747F400F5D335 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53C455F225E747F400F5D335 /* Kiley Stinks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53C455F425E747F400F5D335 /* Kiley Stinks */ = {
+			isa = PBXGroup;
+			children = (
+				53C4569A25E7F97D00F5D335 /* GoogleService-Info.plist */,
+				53C455F525E747F400F5D335 /* AppDelegate.swift */,
+				53C455F725E747F400F5D335 /* SceneDelegate.swift */,
+				53C4560C25E7485C00F5D335 /* Models */,
+				53C4560B25E7485100F5D335 /* Views */,
+				53C4560A25E7484500F5D335 /* Controller */,
+				53C455FE25E747FC00F5D335 /* Assets.xcassets */,
+				53C4560025E747FC00F5D335 /* LaunchScreen.storyboard */,
+				53C4560325E747FC00F5D335 /* Info.plist */,
+				53AF7B7625EAAA06007F0E9C /* Constants.swift */,
+			);
+			path = "Kiley Stinks";
+			sourceTree = "<group>";
+		};
+		53C4560A25E7484500F5D335 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				53C455F925E747F400F5D335 /* WelcomeViewController.swift */,
+				53C4563925E7520E00F5D335 /* RegisterViewController.swift */,
+				53C4563C25E7524B00F5D335 /* LoginViewController.swift */,
+				53384C0E25EBFE0B009AA6A0 /* StinkListViewController.swift */,
+				53384C1D25EC1885009AA6A0 /* AddStinkViewController.swift */,
+				53384C2225EC1A55009AA6A0 /* StinkDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		53C4560B25E7485100F5D335 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				53C455FB25E747F400F5D335 /* Main.storyboard */,
+				53384C1125EBFE6B009AA6A0 /* StinkyTableViewCell.swift */,
+				53384C1225EBFE6B009AA6A0 /* StinkyTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		53C4560C25E7485C00F5D335 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				53384C1925EC17E9009AA6A0 /* StankModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		78156CB0318D4D83F76718DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B540DB0EF8A6141FA702EBAC /* Pods_Kiley_Stinks.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD3ECFFE56AC0689AC064090 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AB6DE5C8F1CE09EE14CDCAA /* Pods-Kiley Stinks.debug.xcconfig */,
+				D2B645667082F825444145D8 /* Pods-Kiley Stinks.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53C455F125E747F400F5D335 /* Kiley Stinks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53C4560625E747FC00F5D335 /* Build configuration list for PBXNativeTarget "Kiley Stinks" */;
+			buildPhases = (
+				251D9FD8EA024F2A6ECD2B19 /* [CP] Check Pods Manifest.lock */,
+				53C455EE25E747F400F5D335 /* Sources */,
+				53C455EF25E747F400F5D335 /* Frameworks */,
+				53C455F025E747F400F5D335 /* Resources */,
+				C64778A1E84E7FB78B571846 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kiley Stinks";
+			productName = "Kiley Stinks";
+			productReference = 53C455F225E747F400F5D335 /* Kiley Stinks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53C455EA25E747F400F5D335 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					53C455F125E747F400F5D335 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 53C455ED25E747F400F5D335 /* Build configuration list for PBXProject "Kiley Stinks" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53C455E925E747F400F5D335;
+			productRefGroup = 53C455F325E747F400F5D335 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53C455F125E747F400F5D335 /* Kiley Stinks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53C455F025E747F400F5D335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C4560225E747FC00F5D335 /* LaunchScreen.storyboard in Resources */,
+				53384C1425EBFE6B009AA6A0 /* StinkyTableViewCell.xib in Resources */,
+				53C4569B25E7F97D00F5D335 /* GoogleService-Info.plist in Resources */,
+				53C455FF25E747FC00F5D335 /* Assets.xcassets in Resources */,
+				53C455FD25E747F400F5D335 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		251D9FD8EA024F2A6ECD2B19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kiley Stinks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C64778A1E84E7FB78B571846 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kiley Stinks/Pods-Kiley Stinks-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kiley Stinks/Pods-Kiley Stinks-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kiley Stinks/Pods-Kiley Stinks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53C455EE25E747F400F5D335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C455FA25E747F400F5D335 /* WelcomeViewController.swift in Sources */,
+				53384C1325EBFE6B009AA6A0 /* StinkyTableViewCell.swift in Sources */,
+				53384C2325EC1A55009AA6A0 /* StinkDetailViewController.swift in Sources */,
+				53C455F625E747F400F5D335 /* AppDelegate.swift in Sources */,
+				53C455F825E747F400F5D335 /* SceneDelegate.swift in Sources */,
+				53C4563D25E7524B00F5D335 /* LoginViewController.swift in Sources */,
+				53384C0F25EBFE0B009AA6A0 /* StinkListViewController.swift in Sources */,
+				53C4563A25E7520E00F5D335 /* RegisterViewController.swift in Sources */,
+				53384C1E25EC1885009AA6A0 /* AddStinkViewController.swift in Sources */,
+				53AF7B7725EAAA06007F0E9C /* Constants.swift in Sources */,
+				53384C1A25EC17EA009AA6A0 /* StankModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53C455FB25E747F400F5D335 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53C455FC25E747F400F5D335 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53C4560025E747FC00F5D335 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53C4560125E747FC00F5D335 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53C4560425E747FC00F5D335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53C4560525E747FC00F5D335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53C4560725E747FC00F5D335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AB6DE5C8F1CE09EE14CDCAA /* Pods-Kiley Stinks.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VR7223ZYQY;
+				INFOPLIST_FILE = "Kiley Stinks/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.meltonlogan.Kiley-Stinks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53C4560825E747FC00F5D335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2B645667082F825444145D8 /* Pods-Kiley Stinks.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VR7223ZYQY;
+				INFOPLIST_FILE = "Kiley Stinks/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.meltonlogan.Kiley-Stinks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53C455ED25E747F400F5D335 /* Build configuration list for PBXProject "Kiley Stinks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53C4560425E747FC00F5D335 /* Debug */,
+				53C4560525E747FC00F5D335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53C4560625E747FC00F5D335 /* Build configuration list for PBXNativeTarget "Kiley Stinks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53C4560725E747FC00F5D335 /* Debug */,
+				53C4560825E747FC00F5D335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53C455EA25E747F400F5D335 /* Project object */;
+}

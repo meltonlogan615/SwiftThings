@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0zb-fA-uIT">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GEo-XJ-nee">
+                                <rect key="frame" x="107" y="100" width="200" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="GEo-XJ-nee" secondAttribute="height" multiplier="2:1" id="nLx-DN-JTA"/>
+                                </constraints>
+                                <state key="normal" image="france"/>
+                                <connections>
+                                    <action selector="answerSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qcL-l4-8w9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yzn-Si-M2d">
+                                <rect key="frame" x="107" y="230" width="200" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Yzn-Si-M2d" secondAttribute="height" multiplier="2:1" id="tA2-d1-1ZZ"/>
+                                </constraints>
+                                <state key="normal" image="france"/>
+                                <connections>
+                                    <action selector="answerSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1y2-YQ-LE8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="omX-av-Ufd">
+                                <rect key="frame" x="107" y="360" width="200" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="omX-av-Ufd" secondAttribute="height" multiplier="2:1" id="R5K-MO-I62"/>
+                                </constraints>
+                                <state key="normal" image="france"/>
+                                <connections>
+                                    <action selector="answerSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2az-iv-lNE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="omX-av-Ufd" firstAttribute="height" secondItem="Yzn-Si-M2d" secondAttribute="height" id="ERv-cM-mdm"/>
+                            <constraint firstItem="Yzn-Si-M2d" firstAttribute="centerX" secondItem="GEo-XJ-nee" secondAttribute="centerX" id="HZM-uT-IGv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="omX-av-Ufd" secondAttribute="bottom" constant="20" id="J72-Ek-iUd"/>
+                            <constraint firstItem="Yzn-Si-M2d" firstAttribute="top" secondItem="GEo-XJ-nee" secondAttribute="bottom" constant="30" id="LFB-vu-uM5"/>
+                            <constraint firstItem="Yzn-Si-M2d" firstAttribute="height" secondItem="GEo-XJ-nee" secondAttribute="height" id="MzR-pI-Zf6"/>
+                            <constraint firstItem="omX-av-Ufd" firstAttribute="top" secondItem="Yzn-Si-M2d" secondAttribute="bottom" constant="30" id="Zbx-c8-0JE"/>
+                            <constraint firstItem="GEo-XJ-nee" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="ZrU-LA-M8B"/>
+                            <constraint firstItem="omX-av-Ufd" firstAttribute="centerX" secondItem="GEo-XJ-nee" secondAttribute="centerX" id="jOs-yX-AMq"/>
+                            <constraint firstItem="GEo-XJ-nee" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="oWH-8c-zhn"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="XpK-om-XIE"/>
+                    <connections>
+                        <outlet property="button1" destination="GEo-XJ-nee" id="QoW-uV-R0s"/>
+                        <outlet property="button2" destination="Yzn-Si-M2d" id="NDr-Ok-W9T"/>
+                        <outlet property="button3" destination="omX-av-Ufd" id="Paj-iD-0uN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928.98550724637687" y="88.392857142857139"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="5to-0k-qfH">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0zb-fA-uIT" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="spu-lQ-d14">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="z4Z-6q-rli"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WVe-CP-nem" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="88.392857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="france" width="200" height="100"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
