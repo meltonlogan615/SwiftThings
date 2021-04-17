@@ -9,7 +9,8 @@ import UIKit
 
 class AllItemsViewController: UITableViewController {
   
-  let items = ["Wu-Tang", "Soundgarden"]
+  var items = [String]()
+  var newItem: String?
 
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -36,8 +37,28 @@ class AllItemsViewController: UITableViewController {
   //TODO: build action function to present modal for adding elements to items array
   @objc func addItem() {
     print("Add Item")
+    let addItemAlert = UIAlertController(title: "Add Item", message: nil, preferredStyle: .alert)
+    addItemAlert.addTextField()
+    let newItem = UIAlertAction(title: "Add", style: .default) { [unowned addItemAlert, weak self] _ in
+      let item = addItemAlert.textFields![0]
+      guard let itemAdded = item.text else { return }
+      if itemAdded == "" {
+        return
+      } else {
+      self?.items.insert(itemAdded, at: 0)
+      self?.tableView.reloadData()
+      }
+    }
+    addItemAlert.addAction(newItem)
+    // addItemAlert.addAction(UIAlertAction(title: "Add", style: .default, handler: addRow))
+    addItemAlert.addAction(UIAlertAction(title: "Cancel", style: .cancel))
+    present(addItemAlert, animated: true)
+    
   }
-  
+//  func addRow(action: UIAlertAction) {
+//    items.append(items.count)
+//    tableView.reloadData()
+//  }
 
 }
 
