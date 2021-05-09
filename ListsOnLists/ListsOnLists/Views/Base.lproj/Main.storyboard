@@ -11,7 +11,7 @@
         <!--All Items View Controller-->
         <scene sceneID="5qj-Dw-nzy">
             <objects>
-                <tableViewController id="QV8-eU-iKF" customClass="AllItemsViewController" customModule="ListsOnLists" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="AllItems" id="QV8-eU-iKF" customClass="AllItemsViewController" customModule="ListsOnLists" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="ARD-B2-mms">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -54,25 +54,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Uc-KI-XX1">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PA6-1a-arX">
+                                <rect key="frame" x="20" y="84" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fpz-U0-cD9"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="0Uc-KI-XX1" firstAttribute="leading" secondItem="fpz-U0-cD9" secondAttribute="leading" id="CeU-sJ-jj0"/>
-                            <constraint firstItem="fpz-U0-cD9" firstAttribute="trailing" secondItem="0Uc-KI-XX1" secondAttribute="trailing" id="YPr-Zv-7vz"/>
-                            <constraint firstItem="fpz-U0-cD9" firstAttribute="bottom" secondItem="0Uc-KI-XX1" secondAttribute="bottom" id="hZk-0O-sJ4"/>
-                            <constraint firstItem="0Uc-KI-XX1" firstAttribute="top" secondItem="fpz-U0-cD9" secondAttribute="top" id="js7-q3-0Fs"/>
+                            <constraint firstItem="fpz-U0-cD9" firstAttribute="trailing" secondItem="PA6-1a-arX" secondAttribute="trailing" constant="20" id="85E-Qt-F0o"/>
+                            <constraint firstItem="PA6-1a-arX" firstAttribute="top" secondItem="fpz-U0-cD9" secondAttribute="top" constant="40" id="H5A-qL-FiN"/>
+                            <constraint firstItem="PA6-1a-arX" firstAttribute="leading" secondItem="fpz-U0-cD9" secondAttribute="leading" constant="20" id="WMk-vP-cid"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Poop" id="jz2-st-qt1"/>
                     <connections>
-                        <outlet property="itemLabel" destination="0Uc-KI-XX1" id="vU8-3X-HSS"/>
+                        <outlet property="editingItemTextField" destination="PA6-1a-arX" id="mcL-Xe-ajX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WWH-Dz-g1V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

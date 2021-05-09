@@ -14,6 +14,8 @@
 		538167B9262B3AE1007438B0 /* ListsOnLists.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 538167B7262B3AE1007438B0 /* ListsOnLists.xcdatamodeld */; };
 		538167BB262B3AE6007438B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 538167BA262B3AE6007438B0 /* Assets.xcassets */; };
 		538167BE262B3AE6007438B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 538167BC262B3AE6007438B0 /* LaunchScreen.storyboard */; };
+		53B896142633D381008B4401 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B896122633D381008B4401 /* KeychainWrapper.swift */; };
+		53B896152633D381008B4401 /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B896132633D381008B4401 /* KeychainItemAccessibility.swift */; };
 		53EA4A7D262B5AFE00810AE8 /* EditItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EA4A7C262B5AFE00810AE8 /* EditItemsViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,8 @@
 		538167BA262B3AE6007438B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		538167BD262B3AE6007438B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		538167BF262B3AE6007438B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53B896122633D381008B4401 /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
+		53B896132633D381008B4401 /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
 		53EA4A7C262B5AFE00810AE8 /* EditItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,6 +72,8 @@
 				538167BC262B3AE6007438B0 /* LaunchScreen.storyboard */,
 				538167BF262B3AE6007438B0 /* Info.plist */,
 				538167B7262B3AE1007438B0 /* ListsOnLists.xcdatamodeld */,
+				53B896132633D381008B4401 /* KeychainItemAccessibility.swift */,
+				53B896122633D381008B4401 /* KeychainWrapper.swift */,
 			);
 			path = ListsOnLists;
 			sourceTree = "<group>";
@@ -162,7 +168,9 @@
 				538167B9262B3AE1007438B0 /* ListsOnLists.xcdatamodeld in Sources */,
 				538167B3262B3AE1007438B0 /* AllItemsViewController.swift in Sources */,
 				538167AF262B3AE1007438B0 /* AppDelegate.swift in Sources */,
+				53B896142633D381008B4401 /* KeychainWrapper.swift in Sources */,
 				53EA4A7D262B5AFE00810AE8 /* EditItemsViewController.swift in Sources */,
+				53B896152633D381008B4401 /* KeychainItemAccessibility.swift in Sources */,
 				538167B1262B3AE1007438B0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
